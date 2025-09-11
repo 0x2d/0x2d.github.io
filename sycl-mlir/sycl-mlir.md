@@ -2,11 +2,14 @@
 
 ## 远程仓库
 [sycl-mlir](https://github.com/0x2d/sycl-mlir)
+
 sycl-mlir分支：同步上游更新
+
 main-dev分支：主开发分支
 
 ## 编译
 [DPC++ doc](https://intel.github.io/llvm/GetStartedGuide.html)
+
 [SYCL-MLIR doc](https://github.com/intel/llvm/blob/sycl-mlir/mlir-sycl/doc/developer/ContributeToSYCLMLIR.md)
 
 由于最新版的ocl header与sycl-mlir不兼容，因此需要手动选择旧版本依赖。130服务器可以在.gitconfig中加入：
