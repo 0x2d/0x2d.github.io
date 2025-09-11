@@ -23,7 +23,7 @@ main-dev分支：主开发分支
 	
 ## 设置环境变量
 ```bash
-(unset other oneAPI and LLVM environment variables）
+(unset other oneAPI and LLVM environment variables)
 export PATH=/path/to/install/bin:$PATH
 export LD_LIBRARY_PATH=/path/to/install/lib:/opt/intel/oneapi/tbb/2022.0/lib:$LD_LIBRARY_PATH  
 ```
