@@ -33,6 +33,9 @@ module load compiler/rocm/dtk/25.04.1
 conda activate oy_dev
 # set gcc
 source ~/Tools/setgcc.sh
+# set libsycl.so
+cd /public/home/liuying/llvm-dcu-offline-22-master
+source env.sh
 ```
 
 编译命令
