@@ -60,6 +60,8 @@ cmake ../cmake \
     -D BUILD_OMP=yes \
     -D BUILD_GPU=yes \
     -D BUILD_CUDA=yes \
+    -D YAMLCPP_REPO=/yaml-cpp-0.8.0/dir \
+    -D CNPYPP_REPO=/cnpypp-master/dir \
     -D CMAKE_PREFIX_PATH="/libzip/install/dir/;/boost/install/dir"
 
 # hip
@@ -71,6 +73,8 @@ cmake ../cmake \
     -D BUILD_OMP=yes \
     -D BUILD_GPU=yes \
     -D BUILD_HIP=yes \
+    -D YAMLCPP_REPO=/yaml-cpp-0.8.0/dir \
+    -D CNPYPP_REPO=/cnpypp-master/dir \
     -D CMAKE_HIP_COMPILER_ROCM_ROOT:PATH=/public/home/sghpc_sdk/Linux_x86_64/25.8/dtk/dtk-25.04.2 \
     -D CMAKE_PREFIX_PATH="/libzip/install/dir/;/boost/install/dir"
 
