@@ -1,3 +1,3 @@
 # [notes](./notes/notes.md)
 # [sycl-mlir](./sycl-mlir/sycl-mlir.md)
-# [TensorMDv2](./tensormdv2/tensormdv2.md)
+# [TensorMD2](./tensormd2/tensormd2.md)
